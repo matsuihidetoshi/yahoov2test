@@ -140,6 +140,9 @@ GEM
     omniauth-oauth2 (1.7.1)
       oauth2 (~> 1.4)
       omniauth (>= 1.9, < 3)
+    omniauth-rails_csrf_protection (1.0.0)
+      actionpack (>= 4.2)
+      omniauth (~> 2.0)
     omniauth-yahoojp (0.2.1)
       httpauth
       omniauth (>= 1.0)
@@ -243,6 +246,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   omniauth
+  omniauth-rails_csrf_protection
   omniauth-yahoojp
   puma (~> 3.11)
   rails (~> 5.2.5)
